@@ -3,6 +3,7 @@
 # Change file rax.py with your username and api_key for auth.
 # Run with: ansible-playbook -i hosts.yml rax-magento.yml -vvv
 # For image and flavor list check file lists.txt
+# Created by Eric Cavalcanti - eric.cavalcanti@rackspace.com
 
 ---
 - name: Build environment
