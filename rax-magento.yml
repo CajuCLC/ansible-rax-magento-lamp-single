@@ -35,9 +35,11 @@
         ansible_ssh_pass: "{{ item.rax_adminpass }}"
         ansible_ssh_user: root
         groupname: web
-        wait_for: port=22 delay=15
       with_items: rax.instances
       when: rax.action == 'create'
+    
+    - name: Wait few seconds before connection
+      wait_for: port=22 delay=10
 
 - name: Install magento, MySQL, httpd, PHP and Varnish
   hosts: web
