@@ -49,5 +49,5 @@
     - mysql 
     - httpd
     - php
-    - magento
     - varnish
+    - magento
