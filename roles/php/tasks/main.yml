@@ -10,4 +10,6 @@
     - php-mysql
     - php-gd
     - php-mcrypt
+    - php-soap
     - mod_ssl
+    - vim
