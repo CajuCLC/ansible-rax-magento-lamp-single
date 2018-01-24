@@ -3,4 +3,4 @@ This playbook will create a Rackspace Cloud Server and install Magento and deps 
 Change rax.py to set your username and api_key.<br/>
 Change configurations on group_vars/all to define hostname, domain, users, admin, etc.<br/>
 
-Created by Eric Cavalcanti - eric.cavalcanti@rackspace.com
+Created by Eric Cavalcanti - ecavalcanti.it@gmail.com
